@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_weather_time"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:textSize="18dp"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/search_weather_dayIcon"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:src="@drawable/_999" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_weather_dayText"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_weather_dayTemp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textSize="18dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_weather_nightTemp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="18dp"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/search_weather_nightIcon"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/_999"
+            android:layout_margin="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_weather_nightText"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

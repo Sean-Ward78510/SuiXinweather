@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/city"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_place"
+        android:layout_margin="10dp"
+        android:text="贵港"
+        android:textSize="20dp"
+        android:textColor="#808080"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="——"
+        android:textSize="25dp"
+        android:textColor="#808080"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_amd2"
+        android:layout_margin="10dp"
+        android:text="贵港"
+        android:textSize="20dp"
+        android:textColor="#808080"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_amd1"
+        android:layout_marginTop="10dp"
+        android:text="贵港"
+        android:textSize="20dp"
+        android:textColor="#808080"/>
+
+</LinearLayout>

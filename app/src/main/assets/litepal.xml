@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="WeatherData" />
+    <version value="1" />
+    <list>
+        <mapping class="data.Weather" />
+        <mapping class="data.SearchPlace" />
+        <mapping class="data.BackgroundURL" />
+        <mapping class="data.CardWeather"/>
+        <mapping class="data.Suggestion"/>
+        <mapping class="data.Forecast"/>
+        <mapping class="data.Hourly"/>
+        <mapping class="data.CardWeather"/>
+    </list>
+</litepal>
